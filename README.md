@@ -1,6 +1,5 @@
 ___
-![Bradmax][bradmaxLogo]
-![Angular][angularLogo]
+![Bradmax][bradmaxLogo]![Angular][angularLogo]
 ___
 This contains [bradmax player][bradmax] Angular 5 modules.
 ___
