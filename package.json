@@ -1,8 +1,7 @@
 {
 	"name": "@bradmax/player-ng",
 	"version": "0.0.1",
-	"description": "Bradmax Player Angular npm packages.",
-	"private": false,
+	"description": "Bradmax Player Angular module.",
 	"author": "Piotr Długołęcki <piotr.dlugolecki@bradmax.pl>",
 	"license": "MIT",
 	"keywords": [
@@ -28,7 +27,7 @@
 	"typings": "",
 	"scripts": {},
 	"dependencies": {
-		"@bradmax/player": "http://localhost:6969/js",
+		"@bradmax/player": "0.0.1",
 		"tslib": "^1.9.0"
 	},
 	"bundledDependencies": [
