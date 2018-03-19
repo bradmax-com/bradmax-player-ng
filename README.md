@@ -67,5 +67,5 @@ More info @ [bradmax.com][bradmax]
 [git-player-rxjs-example]: https://github.com/bradmax-com/bradmax-player-rxjs-example
 [git-player-js]: https://github.com/bradmax-com/bradmax-player-js
 
-[bradmaxLogo]: ./assets/md/bradmax.svg
-[angularLogo]: ./assets/md/ng.svg
+[bradmaxLogo]: https://raw.githubusercontent.com/bradmax-com/bradmax-player-ng/master/assets/md/bradmax.svg?sanitize=true
+[angularLogo]: https://raw.githubusercontent.com/bradmax-com/bradmax-player-ng/master/assets/md/ng.svg?sanitize=true
