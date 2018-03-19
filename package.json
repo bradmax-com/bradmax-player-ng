@@ -1,0 +1,54 @@
+{
+	"name": "@bradmax/player-ng",
+	"version": "0.0.1",
+	"description": "Bradmax Player Angular npm packages.",
+	"private": true,
+	"author": "Piotr Długołęcki <piotr.dlugolecki@bradmax.pl>",
+	"license": "MIT",
+	"keywords": [
+		"bradmax",
+		"player",
+		"angular",
+		"javascript",
+		"typescript"
+	],
+	"homepage": "https://bradmax.com",
+	"engines": {
+		"node": "8.9.4",
+		"npm": "5.7.1",
+		"yarn": "1.5.1"
+	},
+	"main": ".",
+	"module": "",
+	"es2015": "",
+	"typings": "",
+	"scripts": {},
+	"dependencies": {
+		"@bradmax/player": "http://localhost:6969/js",
+		"tslib": "^1.9.0"
+	},
+	"bundledDependencies": [
+		"@bradmax/player"
+	],
+	"peerDependencies": {
+		"@angular/common": "^5.2.9",
+		"@angular/core": "^5.2.9"
+	},
+	"devDependencies": {
+		"@angular/animations": "5.2.9",
+		"@angular/common": "5.2.9",
+		"@angular/compiler": "5.2.9",
+		"@angular/compiler-cli": "5.2.9",
+		"@angular/core": "5.2.9",
+		"@angular/platform-browser": "5.2.9",
+		"@angular/platform-browser-dynamic": "5.2.9",
+		"@angular/platform-server": "5.2.9",
+		"@types/node": "9.4.7",
+		"core-js": "2.5.3",
+		"reflect-metadata": "0.1.12",
+		"rxjs": "5.5.7",
+		"tslint-angular": "1.1.1",
+		"typescript": "2.7.2",
+		"zone.js": "0.8.20"
+	}
+}

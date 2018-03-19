@@ -1,0 +1,18 @@
+{
+	"extends": "./tsconfig.aot.json",
+	"files": [
+		"./src/gorilla/public_api.ts",
+		"./node_modules/@bradmax/player/ns/index.d.ts",
+		"./node_modules/zone.js/dist/zone.js.d.ts"
+	],
+	"angularCompilerOptions": {
+		"flatModuleOutFile": "gorilla.js",
+		"flatModuleId": "@bradmax/player-ng/gorilla",
+		"trace": true,
+		"fullTemplateTypeCheck": true,
+		"preserveWhitespaces": false,
+		"skipTemplateCodegen": true,
+		"annotateForClosureCompiler": true,
+		"strictMetadataEmit": true
+	}
+}

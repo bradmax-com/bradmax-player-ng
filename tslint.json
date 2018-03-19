@@ -1,0 +1,25 @@
+{
+	"defaultSeverity": "warning",
+	"extends": "./node_modules/tslint-angular/tslint.json",
+	"rules": {
+		"directive-selector": [
+			true,
+			"attribute", [
+				"bradmax",
+				"bigsoda"
+			],
+			"camelCase"
+		],
+		"component-selector": [
+			true,
+			"element", [
+				"bradmax",
+				"bigsoda"
+			],
+			"kebab-case"
+		],
+		"indent": [true, "tabs"],
+		"curly": [true, "as-needed"],
+		"no-console": [true, { "allow": ["debug","warn", "error"] }]
+	}
+}

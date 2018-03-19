@@ -1,0 +1,19 @@
+{
+	"extends": "./tsconfig.aot.json",
+	"target": "es2015",
+	"files": [
+		"./src/zebra/public_api.ts",
+		"./node_modules/@bradmax/player/ns/index.d.ts",
+		"./node_modules/zone.js/dist/zone.js.d.ts"
+	],
+	"angularCompilerOptions": {
+		"flatModuleOutFile": "zebra.js",
+		"flatModuleId": "@bradmax/player-ng/zebra",
+		"trace": true,
+		"fullTemplateTypeCheck": true,
+		"preserveWhitespaces": false,
+		"skipTemplateCodegen": true,
+		"annotateForClosureCompiler": true,
+		"strictMetadataEmit": true
+	}
+}
