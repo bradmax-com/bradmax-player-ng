@@ -55,9 +55,9 @@
     tslib "^1.7.1"
     xhr2 "^0.1.4"
 
-"@bradmax/player@http://localhost:6969/js":
-  version "0.0.1"
-  resolved "http://localhost:6969/js#18f0c35757141e20d1f318526ece1169db2b66eb"
+"@bradmax/player@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@bradmax/player/-/player-0.0.0.tgz#d8557515a99a0d7acce58a216f96898dd63960cb"
 
 "@types/node@9.4.7":
   version "9.4.7"
