@@ -14,6 +14,7 @@ import { BradmaxPlayerOptions } from '../../core/model/options.model';
 	declarations: [
 		BradmaxPlayerGorillaComponent
 	],
+	entryComponents: [BradmaxPlayerGorillaComponent],
 	exports: [
 		BradmaxPlayerGorillaComponent
 	]

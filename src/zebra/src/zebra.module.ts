@@ -14,6 +14,7 @@ import { BradmaxPlayerOptions } from '../../core/model/options.model';
 	declarations: [
 		BradmaxPlayerZebraComponent
 	],
+	entryComponents: [BradmaxPlayerZebraComponent],
 	exports: [
 		BradmaxPlayerZebraComponent
 	]
