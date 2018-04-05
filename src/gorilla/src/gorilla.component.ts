@@ -14,7 +14,7 @@ export class BradmaxPlayerGorillaComponent extends AbstractBradmaxPlayerComponen
 
 	constructor(
 		public service: EmbederService,
-		@Inject(ElementRef) protected elementRef: ElementRef,
+		protected elementRef: ElementRef,
 		@Inject(BRADMAX_PLAYER_DEBUG) protected debug: boolean
 	) {
 		super(service, elementRef, debug);
