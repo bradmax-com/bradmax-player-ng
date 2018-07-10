@@ -1,6 +1,6 @@
 {
 	"name": "@bradmax/player-ng",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Bradmax Player Angular module.",
 	"author": "Piotr Długołęcki <piotr.dlugolecki@bradmax.pl>",
 	"license": "MIT",
@@ -16,42 +16,37 @@
 		"url": "https://github.com/bradmax-com/bradmax-player-ng"
 	},
 	"homepage": "https://bradmax.com",
-	"engines": {
-		"node": "8.9.4",
-		"npm": "5.8.0",
-		"yarn": "1.5.1"
-	},
 	"main": ".",
 	"module": "",
 	"es2015": "",
 	"typings": "",
 	"scripts": {},
 	"dependencies": {
-		"@bradmax/player": "^0.1.0",
-		"tslib": "^1.9.0"
+		"@bradmax/player": "^0.1.1",
+		"tslib": "^1.9.3"
 	},
 	"bundledDependencies": [
 		"@bradmax/player"
 	],
 	"peerDependencies": {
-		"@angular/common": "^5.2.9",
-		"@angular/core": "^5.2.9"
+		"@angular/common": "^6.0.7",
+		"@angular/core": "^6.0.7"
 	},
 	"devDependencies": {
-		"@angular/animations": "5.2.9",
-		"@angular/common": "5.2.9",
-		"@angular/compiler": "5.2.9",
-		"@angular/compiler-cli": "5.2.9",
-		"@angular/core": "5.2.9",
-		"@angular/platform-browser": "5.2.9",
-		"@angular/platform-browser-dynamic": "5.2.9",
-		"@angular/platform-server": "5.2.9",
+		"@angular/animations": "^6.0.7",
+		"@angular/common": "^6.0.7",
+		"@angular/compiler": "^6.0.7",
+		"@angular/compiler-cli": "^6.0.7",
+		"@angular/core": "^6.0.7",
+		"@angular/platform-browser": "^6.0.7",
+		"@angular/platform-browser-dynamic": "^6.0.7",
+		"@angular/platform-server": "^6.0.7",
 		"@types/node": "9.6.2",
-		"core-js": "2.5.4",
+		"core-js": "2.5.7",
 		"reflect-metadata": "0.1.12",
-		"rxjs": "5.5.8",
-		"tslint-angular": "1.1.1",
-		"typescript": "2.8.1",
-		"zone.js": "0.8.25"
+		"rxjs": "6.2.1",
+		"tslint-angular": "1.1.2",
+		"typescript": "2.7.2",
+		"zone.js": "0.8.26"
 	}
 }
